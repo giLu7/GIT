@@ -87,3 +87,7 @@ git remote rename <nombre-antiguo> <nombre-nuevo>
 ```sh
 git status --short
 ```
+
+## RAMAS (BRANCHES)
+
+Agrego algo en la rama nueva
