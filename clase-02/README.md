@@ -61,11 +61,29 @@ git commit -am "mensaje commit"
 #### Lista alias de remotos
 
 ```sh
-git remote
+git remote -v
 ```
 
 #### Lista alias de remotos y urls
 
 ```sh
 git remote -v
+```
+
+#### Agrego remoto a mi REPO
+
+```sh
+git remote....
+```
+
+#### Renombra el alias de la URL del remoto
+
+```sh
+git remote rename <nombre-antiguo> <nombre-nuevo>
+```
+
+### Forma corta de hacer un status y ver los cambios en el working directory
+
+```sh
+git status --short
 ```
