@@ -87,3 +87,5 @@ git remote rename <nombre-antiguo> <nombre-nuevo>
 ```sh
 git status --short
 ```
+
+## ESTA ES LA RAMA CHECKOUT
