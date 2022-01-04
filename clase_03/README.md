@@ -25,3 +25,9 @@ git switch <nombreRama>
 ### Tipos de Merge
 
 Fast-fodward (no hay ningun cambio que se solape con lo que está en la otra rama)
+
+Agrego cosas que quiero tener en consideración
+
+- Tener en cuenta subir una rama al remoto
+- Ver clone
+- Ver fork
