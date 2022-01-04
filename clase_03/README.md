@@ -24,4 +24,8 @@ git switch <nombreRama>
 
 ### Tipos de Merge
 
-Fast-fodward (no hay ningun cambio que se solape con lo que está en la otra rama)
+Fast-fodward - unión automática (no hay ningun cambio que se solape con lo que está en la otra rama)
+
+Recursiva - uniones automáticas (no hay colisiones de cambios)
+
+Manual - tiene conflictos (ocurre cuando hay modificaciones en las mismas lineas)
