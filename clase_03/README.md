@@ -37,3 +37,22 @@ Agrego cosas que quiero tener en consideración
 ```sh
 git merge --abort
 ```
+
+## ALIAS
+
+### ¿Cómo creo un alias?
+
+git config alias.lg "log --oneline --decorate --all --graph"
+git config alias.l "log --oneline"
+
+### Para editar el archivo de configuracion de GIT
+
+```sh
+git config -e
+```
+
+### Para eliminar un alias
+
+```sh
+git config --unset alias.(nombre)
+```
