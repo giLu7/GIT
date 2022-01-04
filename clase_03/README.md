@@ -31,3 +31,9 @@ Agrego cosas que quiero tener en consideración
 - Tener en cuenta subir una rama al remoto
 - Ver clone
 - Ver fork
+
+### Abortar Merge
+
+```sh
+git merge --abort
+```
