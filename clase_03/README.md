@@ -56,3 +56,27 @@ git config -e
 ```sh
 git config --unset alias.(nombre)
 ```
+
+# Git Clone
+
+Me permite clonar cualquier repositorio que exista en GitHub, GitLab, etc.
+
+#### Lo clona en la carpeta con el mismo nombre
+
+```sh
+git clone https://...
+```
+
+#### Clona en una carpeta en específico
+
+```sh
+git clone https://..... ./<nombreCarpeta>
+```
+
+# Fork
+
+Me permite crear un repo en mi cuenta de cualquier proyecto de Github
+
+1. Vamos al repo que queremos hacer el fork. Presionamos el botón.
+2. Se crea el repo en mi cuenta.
+3. Puedo clonar ese repo y empezar a trabajar
