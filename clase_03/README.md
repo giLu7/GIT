@@ -85,6 +85,15 @@ git clone https://...
 git clone https://..... ./<nombreCarpeta>
 ```
 
+# GIT PULL
+
+Trae todos los cambios que hubieran surgido durante el día (por ej)
+
+```sh
+git pull
+
+```
+
 # Fork
 
 Me permite crear un repo en mi cuenta de cualquier proyecto de Github
@@ -107,4 +116,42 @@ git remote add upstream <urlRemotoOriginal>
 
 ```sh
 git pull upstream <urlRemotoOriginal>
+```
+
+# GIT STASH
+
+Es una pila de almacenamiento que provee GIT. Permite registrar temporalmente los cambios del working directory para seguir trabajando. Cuando hacemos un stash. Cuando hacemos un stash se reestablece el proyecto al último commit
+
+## Crea el stash
+
+GUarda los cambios que estan en el working directory en un área temporal
+
+```sh
+git stash
+```
+
+## Para listar los stash
+
+```sh
+git stash list
+```
+
+## Para recuperar el stash
+
+Lo que hace este comando es recuperar el último stash
+
+```sh
+git stash pop
+```
+
+## Para cargar un stash en particular
+
+```sh
+git stash apply  stash@{0}
+```
+
+## Para borrar el stash
+
+```sh
+git stash drop stash@{0}
 ```
