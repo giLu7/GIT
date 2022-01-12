@@ -93,3 +93,38 @@ Es más destructivo de todos.
 ```sh
 git reset --hard
 ```
+
+# GIT REFLOG
+
+Nos muestra la historia completa incluido todos los movimientos que fuimos haciendo sobre nuestro
+repositorio.
+
+```sh
+git reflog
+```
+
+Vuelvo al punto donde quiero estar, colocando el hash en checkout.
+
+```sh
+git checkout <HASH> .
+```
+
+# REBASE
+
+¿Cómo actualizo una rama de v con los cambios en master antes de integrar los cambios que tienen la rama dev?
+
+git rebase master > crea un area temporal, mueve los commits de la rama dev y mueve al al último commit y luego mueve los commits del area temporal al final de los commits
+
+### Rebase interactivo
+
+```sh
+git rebase -i <HASH>
+```
+
+Ej:
+
+git rebase master > crea un area temporal, mueve los commits de la rama dev y mueve al al último commit y luego mueve los commits del area temporal al final de los commits
+
+```sh
+git rebase -i 8fee621
+```
