@@ -40,8 +40,56 @@ Ejemplo:
 git show v1.0.0
 ```
 
-### Tag en el ultimo commit
+### Subir una etiqueta (tag) en especifico
 
 ```sh
-git show <identificador del tag>
+git push origin <tag_name>
+```
+
+### Subir todos tags (NO RECOMENDADO)
+
+```sh
+git push --tags
+```
+
+### Borrar tags
+
+```sh
+git tag -d <tag_name>
+```
+
+### Git Amend
+
+Sirve para cuando uno se equivoca sobre en el último commit. Por ejemplo al hacer un commit y olvidarse de guardar el archivo que estaba modificando
+
+```sh
+git commmit --amend
+```
+
+Recuerden que no solo pueden cambiar el nombre del commit también pueden agregar archivos.
+
+### Guía buenas prácticas para nombrar a los commits
+
+https://medium.com/@jmz12/buenas-pr%C3%A1cticas-para-commits-5eb4c86b9a47
+
+### IMPORTANTE: USAR CON CUIDADO
+
+```sh
+git checkout -- .
+```
+
+# GIT RESET
+
+```sh
+git reset --soft
+```
+
+```sh
+git reset === git reset --mixed
+```
+
+Es más destructivo de todos.
+
+```sh
+git reset --hard
 ```
